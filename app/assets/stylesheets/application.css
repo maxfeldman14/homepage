@@ -8,6 +8,68 @@
  * You're free to add application-wide styles to this file and they'll appear at the top of the
  * compiled file, but it's generally better to create a new file per style scope.
  *
- *= require_self
  *= require_tree .
+ *= require_self
 */
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: Georgia;
+  height: 100%;
+}
+
+#wrap {
+  min-height: 100%;
+}
+
+#main {
+  overflow:auto;
+  padding-bottom: 2em;  /* must be same height as the footer */
+}
+
+#header {
+  border: 1px solid black;
+  height: 2em;
+}
+
+#logobox {
+  float: left;
+  width: 5em;
+  padding: 5px;
+}
+
+#navbar {
+  list-style-type: none;
+  padding: 0;
+  float: right;
+  width: 21em;
+  text-align: right;
+}
+
+#navbar li {
+  display: inline-block;
+  padding: 5px;
+  margin: -1px;
+}
+
+.clear {
+  clear: both;
+}
+
+#content {
+  min-height: 100%;
+  margin-top: -2em;
+  padding-top: 2em;
+  margin-bottom: -2em;
+  padding-bottom: 2em;
+}
+
+#footer {position: relative;
+  margin-top: -2em; /* negative value of footer height */
+  height: 2em;
+  clear:both;
+  text-align: center;
+} 
