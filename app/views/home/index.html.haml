@@ -3,17 +3,30 @@
     #about
       About 
     %br
+    #picture
+      = image_tag 'max.jpg'
     #hello
-      Hi, I'm Max. I am a senior EECS student at UC Berkeley. My focus within EECS is computer science, and computer security in particular. 
+      Hi, I'm Max Feldman. I am a senior EECS student at UC Berkeley. My focus within EECS is computer science, and a particular interest in computer security. 
       %br
       %br
       :markdown
-        I am currently involved in research [projects], staffing UC Berkeley CS [classes], and other [hobbies].
+        I am currently involved in research [projects], staffing UC Berkeley CS [classes], and other [hobbies]. I have spent the past two summers interning at [Salesforce.com]. I am enthusiastic about exploring the many facets of computer security, and in addition to my network security research I've begun to look into web application security and applied cryptography.
         [projects]: #{projects_path}
         [classes]: #{teaching_path}
         [hobbies]: #{misc_path}
+        [Salesforce.com]: http://www.salesforce.com
+      %br
+      :markdown
+        I've had the privilege of working on UC Berkeley's [computer security] and [software engineering] courses in the SP12 semester, and will continue to participate in the FA12 semester.
+        [computer security]: http://www-inst.eecs.berkeley.edu/~cs161/
+        [software engineering]: http://www-inst.eecs.berkeley.edu/~cs169/
+      %br
+      :markdown
+        In the little free time I have remaining I enjoy playing and writing music and learning new (human) languages.
     #contact
       %br
-      %i maxfeldman14 (at) gmail (dot) com
-  #picture
-    
+      email: maxfeldman14 (at) gmail (dot) com
+      %br
+      %br
+      = link_to 'github', 'http://github.com/maxfeldman14'
+    .clear

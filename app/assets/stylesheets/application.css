@@ -37,7 +37,7 @@ html {
 
 
 body {
-  font-family: Georgia;
+  font-family: Palatino Linotype, serif;
   height: 100%;
   background-color: #F0F0F0;
 }
@@ -121,6 +121,18 @@ body {
 
 #hello a:active {
   color: #A80000;
+}
+
+#hello {
+  width-right: 45%;
+  font-size: 120%;
+}
+
+#picture {
+  float: right;
+  width: 310px
+  height: 400px;
+  margin-left: 10%;
 }
 
 #footer {position: relative;
