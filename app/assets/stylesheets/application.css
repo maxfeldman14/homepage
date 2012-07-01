@@ -16,9 +16,30 @@ html {
   height: 100%;
 }
 
+#header a {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+#header a:visited {
+  color: black;
+}
+
+#header a:hover {
+  color: #680000;
+}
+
+#header a:active {
+  color: #A80000;
+}
+
+
+
 body {
   font-family: Georgia;
   height: 100%;
+  background-color: #F0F0F0;
 }
 
 #wrap {
@@ -31,21 +52,28 @@ body {
 }
 
 #header {
-  border: 1px solid black;
-  height: 2em;
+  border: 3px solid #383838;
+  height: 1.5em;
+  background-color: white;
+  width: 90%;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 150%;
+  box-shadow: -3px 3px 8px #888888;
 }
 
 #logobox {
   float: left;
-  width: 5em;
+  width: 8em;
   padding: 5px;
+  margin:auto 0;
 }
 
 #navbar {
   list-style-type: none;
   padding: 0;
   float: right;
-  width: 21em;
+  width: 23em;
   text-align: right;
 }
 
@@ -61,10 +89,38 @@ body {
 
 #content {
   min-height: 100%;
-  margin-top: -2em;
-  padding-top: 2em;
-  margin-bottom: -2em;
-  padding-bottom: 2em;
+  background-color: white;
+  width: 90%;
+  margin: 1em auto 0;
+  box-shadow: -3px 3px 8px #888888;
+  border: 1px solid #383838;
+}
+
+#homewrap {
+  padding: 1em;
+}
+
+#about {
+  font-size: 135%;
+  font-weight: bold;
+}
+
+#hello a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #680000;
+}
+
+#hello a:visited {
+  color: #680000;
+}
+
+#hello a:hover {
+  text-decoration: underline;
+}
+
+#hello a:active {
+  color: #A80000;
 }
 
 #footer {position: relative;
@@ -73,3 +129,4 @@ body {
   clear:both;
   text-align: center;
 } 
+

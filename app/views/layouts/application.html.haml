@@ -1,0 +1,28 @@
+!!!
+%html
+  %head
+    %title maxfeldman.net
+    = stylesheet_link_tag    "application", :media => "all" 
+    = javascript_include_tag "application" 
+    = csrf_meta_tags
+  %body
+    #wrap
+      #header
+        #logobox
+          = link_to 'maxfeldman.net', root_path
+        %ul#navbar
+          %li 
+            = link_to 'Projects', projects_path
+          %li
+            = '|'
+          %li 
+            = link_to 'Teaching', teaching_path
+          %li
+            = '|'
+          %li 
+            = link_to 'Miscellaneous', misc_path
+        .clear
+      #content
+        = yield 
+    #footer
+      &copy; #{Time.now.year} Maxwell Feldman 
