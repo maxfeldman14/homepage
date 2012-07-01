@@ -100,7 +100,7 @@ body {
   padding: 1em;
 }
 
-#about {
+#title {
   font-size: 135%;
   font-weight: bold;
 }
@@ -126,6 +126,7 @@ body {
 #hello {
   width-right: 45%;
   font-size: 120%;
+  line-height: 1.4em;
 }
 
 #picture {
