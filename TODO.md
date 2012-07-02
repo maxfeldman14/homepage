@@ -1,17 +1,8 @@
 TODO
 
-things i work on:
-school projects
-research
+projects
 teaching
-music
-(misc)
+misc
+highlight current selection
 
-
-Pages:
-one for each thing i work on
-about
-
-at the top:
-select from about and all the other things
-highlight the current one:q 
+add blog later
