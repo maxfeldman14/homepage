@@ -34,8 +34,6 @@ html {
   color: #A80000;
 }
 
-
-
 body {
   font-family: Palatino Linotype, serif;
   height: 100%;
@@ -96,6 +94,9 @@ body {
   border: 1px solid #383838;
 }
 
+#invisodiv {
+  height: 3em;
+}
 #homewrap {
   padding: 1em;
 }
@@ -129,6 +130,45 @@ body {
   line-height: 1.4em;
 }
 
+#subtitle {
+  width-right: 45%;
+  font-size: 100%;
+  line-height: 1.4em;
+  margin-top: .5em;
+}
+
+.projname {
+  width-right: 45%;
+  font-size: 120%;
+  line-height: 1.4em;
+  font-weight: bold;
+  margin: .5em 0;
+}
+
+.projdesc a {
+  text-decoration: none;
+  font-weight: bold;
+  color: #680000;
+}
+
+.projdesc a:visited {
+  color: #680000;
+}
+
+.projdesc a:hover {
+  text-decoration: underline;
+}
+
+.projdesc a:active {
+  color: #A80000;
+}
+
+.projdesc {
+  width-right: 45%;
+  font-size: 100%;
+  line-height: 1.4em;
+}
+
 #picture {
   float: right;
   width: 310px
@@ -142,4 +182,8 @@ body {
   clear:both;
   text-align: center;
 } 
+
+#contact {
+  margin: 1em 0em;
+}
 

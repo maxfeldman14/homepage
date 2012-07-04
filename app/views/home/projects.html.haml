@@ -1,5 +1,30 @@
 #homewrap
   #title
     Projects
-  %br
-  coming soon
+  #subtitle
+    A portfolio of selected past and present projects.
+    %hr
+
+  - @projs.each do |project|
+    .project
+      .projname
+        #{project[:name]}
+      .projdesc
+        :markdown
+          #{project[:description]}
+      .projimg
+        = image_tag project[:pic]
+
+  - @pasts.each do |project|
+    .project
+      .projname
+        #{project[:name]}
+      .projdesc
+        :markdown
+          #{project[:description]}
+      .projimg
+        = image_tag project[:pic]
+  .clear
+
+
+
