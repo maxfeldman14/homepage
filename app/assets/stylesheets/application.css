@@ -34,6 +34,25 @@ html {
   color: #A80000;
 }
 
+#hub a{
+  text-decoration: none;
+  font-weight: bold;
+  color: #680000;
+}
+
+#hub a:visited {
+  color: #680000;
+}
+
+#hub a:hover {
+  text-decoration: underline;
+}
+
+#hub a:active {
+  color: #A80000;
+}
+
+
 body {
   font-family: Palatino Linotype, serif;
   height: 100%;
@@ -142,7 +161,7 @@ body {
   font-size: 120%;
   line-height: 1.4em;
   font-weight: bold;
-  margin: .5em 0;
+  margin: .2em 0;
 }
 
 .projdesc a {
@@ -167,6 +186,7 @@ body {
   width-right: 45%;
   font-size: 100%;
   line-height: 1.4em;
+  margin-bottom: 1em;
 }
 
 #picture {
@@ -175,6 +195,12 @@ body {
   height: 400px;
   margin-left: 10%;
 }
+
+.projimg {
+  float: right;
+  display:block;
+}
+
 
 #footer {position: relative;
   margin-top: -2em; /* negative value of footer height */
