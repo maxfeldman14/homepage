@@ -44,3 +44,6 @@ gem 'jquery-rails'
 
 gem 'haml'
 gem 'rdiscount'
+
+# For twilio
+gem 'twilio-ruby'
