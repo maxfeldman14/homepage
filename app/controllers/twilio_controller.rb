@@ -4,7 +4,13 @@ class TwilioController < ApplicationController
     message_body = params["Body"]
     from_number = params["From"]
 
-    SMSLogger.log_text_message from_number, message_body
+    puts "*** TWILIO ***\n"
+    puts "BODY: "
+    puts message_body
+    puts "\n"
+    puts "FROM: "
+    puts from_number
+    #SMSLogger.log_text_message from_number, message_body
   end
 
   def send_text_message
