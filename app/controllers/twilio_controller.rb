@@ -1,6 +1,9 @@
 class TwilioController < ApplicationController
   def index
-    # TODO: set up route
+    # A post will end up here; fetch the Body and From
+    # From shouldn't matter either
+    # Twilio will get the post response, which should
+    # hold the TwiML and instruct Twilio how to respond
     message_body = params["Body"]
     from_number = params["From"]
 
@@ -10,9 +13,9 @@ class TwilioController < ApplicationController
     puts "\n"
     puts "FROM: "
     puts from_number
-    #SMSLogger.log_text_message from_number, message_body
   end
 
+  # This is actually probably unnecessary:
   def send_text_message
     number_dest = params[:number_to_send_to]
 
