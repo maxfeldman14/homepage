@@ -1,4 +1,6 @@
 class TwilioController < ApplicationController
+  protect_from_forgery :except => :create 
+
   def index
     # A post will end up here; fetch the Body and From
     # From shouldn't matter either
