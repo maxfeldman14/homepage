@@ -1,5 +1,14 @@
 #homewrap
   #title
-    Miscellaneous
-  %br
-  coming soon
+    Misellaneous
+  #subtitle
+    Other miscellaneous things.
+    %hr
+
+  - @miscs.each do |misc|
+    .project
+      .projname
+        #{misc[:name]}
+      .projdesc
+        :markdown
+          #{misc[:description]}

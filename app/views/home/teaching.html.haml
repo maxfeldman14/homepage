@@ -1,6 +1,16 @@
 #homewrap
   #title
     Teaching
-  %br
-  coming soon
+  #subtitle
+    I help out with a couple of courses at Cal.
+    %hr
+
+  - @klasses.each do |klass|
+    .project
+      .projname
+        #{klass[:name]}
+      .projdesc
+        :markdown
+          #{klass[:description]}
+
 

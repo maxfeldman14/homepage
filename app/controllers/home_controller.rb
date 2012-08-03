@@ -27,16 +27,19 @@ class HomeController < ApplicationController
   def teaching
     @klasses = [
       { name: "CS161: Computer Security", description:
-        "I joined the staff of UC Berkeley's CS161 (link) in the Spring 2012 semester."},
+        "I joined the staff of UC Berkeley's [CS161] in the Spring 2012 semester.
+[CS161]: http://www.cs.berkeley.edu/~dawnsong/teaching/f12-cs161"},
       { name: "CS169: Software Engineering", description: 
-        "I joined the staff UC Berkeley's CS169 (link) in the Spring 2012 semester."}
+        "I joined the staff UC Berkeley's [CS169]  in the Spring 2012 semester.
+[CS169]: https://sites.google.com/site/ucbsaas"}
     ]
   end
 
   def misc
     @miscs = [
-      { name: "Machine shop", description: "I worked in the CED fabrication shop (link) for two years"},
-      { name: "Music", description: "I enjoy playing and composing music. Here are some selected pieces: (link)"}
+      { name: "Machine shop", description: "I worked in the [CED fabrication shop] for two years
+[CED fabrication shop]: http://www.ced.berkeley.edu/college/facilities/shop"},
+      { name: "Music", description: "I enjoy playing and composing music. I'll be uploading some songs soon."}
     ]
   end
 end
