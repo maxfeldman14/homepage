@@ -11,7 +11,10 @@ class HomeController < ApplicationController
 [github]: https://github.com/maxfeldman14/brospects", pic: "bro.png"},
       { name: "MERmaid", description: 
         "I have recently begun contributing to [MERmaid], a distributed *de novo* genome assembler.
-[MERmaid]: https://github.com/mermaid-assembler", pic: "mermaid.png"}
+[MERmaid]: https://github.com/mermaid-assembler", pic: "mermaid.png"},
+      { name: "HKN Website", description:
+        "I occasionally contribute to UC Berkeley's HKN (Mu chapter) [website].
+[website]: https://hkn.eecs.berkeley.edu"}
     ]
     @pasts = [
       { name: "PHELONY", description: 
@@ -30,7 +33,7 @@ class HomeController < ApplicationController
         "I joined the staff of UC Berkeley's [CS161] in the Spring 2012 semester.
 [CS161]: http://www.cs.berkeley.edu/~dawnsong/teaching/f12-cs161"},
       { name: "CS169: Software Engineering", description: 
-        "I joined the staff UC Berkeley's [CS169]  in the Spring 2012 semester.
+        "I joined the staff of UC Berkeley's [CS169]  in the Spring 2012 semester.
 [CS169]: https://sites.google.com/site/ucbsaas"}
     ]
   end
