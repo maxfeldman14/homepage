@@ -27,14 +27,17 @@ class HomeController < ApplicationController
     ]
   end
 
-  def teaching
-    @klasses = [
+  def work 
+    @works = [
       { name: "CS161: Computer Security", description:
         "I joined the staff of UC Berkeley's [CS161] in the Spring 2012 semester.
 [CS161]: http://www.cs.berkeley.edu/~dawnsong/teaching/f12-cs161"},
       { name: "CS169: Software Engineering", description: 
         "I joined the staff of UC Berkeley's [CS169]  in the Spring 2012 semester.
-[CS169]: https://sites.google.com/site/ucbsaas"}
+[CS169]: https://sites.google.com/site/ucbsaas"},
+      { name: "Salesforce", description:
+        "I've spent the past two summers working at [Salesforce.com], and am continuing to work there part time.
+[Salesforce.com]: https://www.salesforce.com"}
     ]
   end
 
