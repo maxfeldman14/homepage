@@ -1,0 +1,16 @@
+#homewrap
+  #title
+    Work 
+  #subtitle
+    I help out with a couple of courses at Cal and work at Salesforce.com.
+    %hr
+
+  - @works.each do |work|
+    .project
+      .projname
+        #{work[:name]}
+      .projdesc
+        :markdown
+          #{work[:description]}
+
+
