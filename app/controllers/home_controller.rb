@@ -45,7 +45,7 @@ class HomeController < ApplicationController
     @miscs = [
       { name: "Machine shop", description: "I worked in the [CED fabrication shop] for two years
 [CED fabrication shop]: http://www.ced.berkeley.edu/college/facilities/shop"},
-      { name: "Music", description: "I enjoy playing and composing music. I'll be uploading some songs soon."}
+      { name: "Music", description: "I enjoy playing and composing music."}
     ]
   end
 end
