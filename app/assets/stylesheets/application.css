@@ -75,13 +75,13 @@ body {
   width: 90%;
   margin-right: auto;
   margin-left: auto;
-  font-size: 150%;
+  font-size: 100%;
   box-shadow: -3px 3px 8px #888888;
 }
 
 #logobox {
   float: left;
-  width: 8em;
+  width: 6em;
   padding: 5px;
   margin:auto 0;
 }
